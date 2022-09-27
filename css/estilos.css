@@ -1,5 +1,6 @@
 body
 {
+    background: black;
     color: blue;
     text-align: center;
     font-family: "Arial";
@@ -10,11 +11,17 @@ body
 
 #cabecera
 {
-    background: #44c;
+    background: #37488b;
     color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5rem;
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #container
